@@ -6,6 +6,7 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import UploadProduct from './Component/UploadProduct/UploadProduct';
 import OrderList from './Component/OrderList/OrderList';
+import Products from './Component/Products/Products';
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <Route path="login" element={<Login/>} />
         <Route path="uploadpd" element={<UploadProduct/>} />
         <Route path="orderlist" element={<OrderList/>} />
+        <Route path="products" element={<Products/>} />
       </Routes>
 
     </div>
